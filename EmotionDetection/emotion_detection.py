@@ -22,7 +22,7 @@ def emotion_detector(text_to_analyse):
     disgust_score = formatted_response['emotionPredictions'][0]['emotion']['disgust']
     fear_score = formatted_response['emotionPredictions'][0]['emotion']['fear']
     joy_score = formatted_response['emotionPredictions'][0]['emotion']['joy']
-    sadness_score = formatted_response['emotionPredictions'][0]['emotion']['sadness']
+    sadness_score = formatted_response['emotionPredictions'][0]['emotion']['sadnes']
 
     # Map the emotion scores to their respective emotions
     predicted_emotion_scores = {
