@@ -15,8 +15,8 @@ def em_detector():
     disgust_score = response['disgust']
     fear_score = response['fear']
     joy_score = response['joy']
-    sadness_score = response['sadnes']
-    dominant_emotion = ['dominant_emotion']
+    sadness_score = response['sadness']
+    dominant_emotion = response['dominant_emotion']
 
     return f"For the given statement, the system response is 'anger': \
     {anger_score}, 'disgust': {disgust_score}, 'fear': {fear_score}, 'joy': {joy_score} and \
